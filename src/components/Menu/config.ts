@@ -12,11 +12,11 @@ const config: MenuEntry[] = [
     items: [
       {
         label: 'Exchange',
-        href: 'http://exchange.vikingswap.finance/',
+        href: 'https://exchange.goosedefi.com/',
       },
       {
         label: 'Liquidity',
-        href: 'http://exchange.vikingswap.finance/#/pool',
+        href: 'https://exchange.goosedefi.com/#/pool',
       },
     ],
   },
@@ -26,25 +26,44 @@ const config: MenuEntry[] = [
     href: '/farms',
   },
   {
-    label: 'Armory',
+    label: 'Nests',
     icon: 'PoolIcon',
     href: '/nests',
   },
+  // {
+  //   label: 'Pools',
+  //   icon: 'PoolIcon',
+  //   href: '/pools',
+  // },
+  // {
+  //   label: 'Lottery',
+  //   icon: 'TicketIcon',
+  //   href: '/lottery',
+  // },
+  // {
+  //   label: 'NFT',
+  //   icon: 'NftIcon',
+  //   href: '/nft',
+  // },
   {
     label: 'Info',
     icon: 'InfoIcon',
     items: [
       {
         label: 'PancakeSwap',
-        href: 'https://pancakeswap.info/token/0x896eDE222D3f7f3414e136a2791BDB08AAa25Ce0',
-      },
-      {
-        label: 'CoinMarketCap',
-        href: 'https://coinmarketcap.com/currencies/viking-swap/',
+        href: 'https://pancakeswap.info/token/0xF952Fc3ca7325Cc27D15885d37117676d25BfdA6',
       },
       {
         label: 'CoinGecko',
-        href: 'https://www.coingecko.com/en/coins/viking-swap',
+        href: 'https://www.coingecko.com/en/coins/goose-finance',
+      },
+      {
+        label: 'CoinMarketCap',
+        href: 'https://coinmarketcap.com/currencies/goose-finance/',
+      },
+      {
+        label: 'AstroTools',
+        href: 'https://app.astrotools.io/pancake-pair-explorer/0x19e7cbecdd23a16dfa5573df54d98f7caae03019',
       },
     ],
   },
@@ -53,23 +72,28 @@ const config: MenuEntry[] = [
     icon: 'MoreIcon',
     items: [
       {
-        label: "Github",
-        href: "https://github.com/VikingDefi/",
+        label: 'Github',
+        href: 'https://github.com/goosedefi/',
       },
       {
-        label: "Docs",
-        href: "https://vikingswap.gitbook.io/viking-swap/",
+        label: 'Docs',
+        href: 'https://goosedefi.gitbook.io/goose-finance/',
       },
       {
-        label: "Blog",
-        href: "https://viking-swap.medium.com/",
+        label: 'Blog',
+        href: 'https://goosefinance.medium.com/',
       },
     ],
   },
   {
     label: 'Audit by Hacken',
-    icon: 'HelmetIcon',
-    href: 'https://www.vikingswap.finance/files/vikingHackenAudit.pdf',
+    icon: 'AuditIcon',
+    href: 'https://www.goosedefi.com/files/hackenAudit.pdf',
+  },
+  {
+    label: 'Audit by CertiK',
+    icon: 'AuditIcon',
+    href: 'https://certik.org/projects/goose-finance',
   },
 ]
 
